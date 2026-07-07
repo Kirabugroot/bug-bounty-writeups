@@ -1,123 +1,115 @@
-# 🛡️ Bug Bounty Writeups
+# 🛡️ Cybersecurity Research Portfolio
 
-Welcome to my **cybersecurity research portfolio**.
+Welcome to my cybersecurity research portfolio.
 
-This repository contains my technical write-ups, vulnerability research, and security analysis focused on **web application security** and **offensive security**.
+I'm an **18-year-old bug hunter** passionate about **offensive security**, web application security, and vulnerability research.
 
-I am an **18-year-old security researcher** passionate about discovering vulnerabilities, understanding attack techniques, and improving my skills in penetration testing.
+This repository contains my security writeups, technical analysis, and learning notes as I continue developing my skills in cybersecurity and penetration testing.
 
 ---
 
 ## 👨‍💻 About Me
 
-🔎 **Security Researcher**
-🐛 **Bug Bounty Hunter**
-🌐 **Web Security Enthusiast**
-⚔️ **Offensive Security Learner**
-🎯 **Aspiring Penetration Tester**
+- 🔎 Bug Bounty Hunter
+- 🕵️ Offensive Security Learner
+- 🌐 Web Security Enthusiast
+- 🎯 Aspiring Penetration Tester
 
-My current focus areas include:
+My main areas of interest:
 
-* Web application vulnerabilities
-* Authentication and authorization security
-* OAuth 2.0 security
-* Security testing methodologies
-* Vulnerability research
+- Web Application Security
+- Authentication & Authorization vulnerabilities
+- API Security
+- OAuth 2.0 Security
+- Vulnerability Research
+- Security Testing Methodologies
 
----
-
-# 📚 Writeups
-
-A collection of my vulnerability research and technical analyses.
+My goal is to become a professional penetration tester and continuously improve through practical research, labs, and responsible disclosure.
 
 ---
 
-## 🔐 OAuth 2.0 Misconfiguration — Missing PKCE Enforcement
+## 📚 Security Research & Writeups
 
-**Category:** Authentication / OAuth Security
-**Severity:** Medium
-**Status:** ✅ Fixed by vendor
-
-A technical analysis of an OAuth 2.0 security issue involving:
-
-* Missing PKCE enforcement
-* Weak OAuth client registration controls
-* Insufficient redirect URI validation
-* Authorization flow security weaknesses
-
-📄 **Read the full write-up:**
-
-➡️ [oauth-pkce-misconfiguration.md](oauth-pkce-misconfiguration.md)
+| Research | Description |
+|-----------|-------------|
+| 🔐 OAuth 2.0 Security Research | Analysis of OAuth implementation weaknesses, PKCE security, and authentication flow issues |
+| 🌐 Web Security Research | Vulnerability analysis, experiments, and technical security notes |
 
 ---
 
-# 🧰 Skills & Learning Path
+## 🏆 Bug Bounty Experience
 
-Currently developing skills in:
-
-### 🌐 Web Security
-
-* Authentication vulnerabilities
-* Authorization flaws
-* Session security
-* API security
-* Common web vulnerabilities
-
-### 🔑 Identity & Access Management
-
-* OAuth 2.0
-* OpenID Connect
-* PKCE
-* Access control mechanisms
-
-### 💻 Technical Skills
-
-* Linux
-* Python scripting
-* Security automation
-* Networking fundamentals
-* Penetration testing methodologies
+- Accepted vulnerability report through responsible disclosure
+- Experience analyzing authentication and authorization security issues
+- Security research focused on web applications
 
 ---
 
-# 🎯 Objectives
+## 🧰 Skills & Tools
 
-My goal is to become a professional penetration tester and continue developing strong skills in:
+### Security
 
-* Vulnerability discovery
-* Exploit analysis
-* Security research
-* Offensive security operations
+- Web Application Pentesting
+- Vulnerability Research
+- Authentication Testing
+- Authorization Testing
+- Manual Security Testing
+- Security Analysis
 
-This repository represents my continuous learning journey and practical security experience.
+### Tools
 
----
-
-# 🤝 Responsible Disclosure
-
-All vulnerabilities published in this repository follow responsible disclosure principles.
-
-To respect affected organizations:
-
-* Sensitive information has been removed.
-* Exploit details are limited when necessary.
-* Only publicly safe technical information is shared.
+- Burp Suite
+- Nmap
+- OWASP ZAP
+- Linux
+- Git
+- Python (Security Automation)
 
 ---
 
-# ⭐ Repository Contents
+## 📈 Learning Journey
 
-```
-📁 writeups/
- ├── oauth-pkce-misconfiguration.md
+This repository documents my growth in cybersecurity.
 
-📄 README.md
-```
+Each writeup represents:
 
-More research and technical write-ups will be added as my security journey continues.
+- A vulnerability I researched
+- A security concept I studied
+- A technique I practiced
+- A lesson learned
+
+Currently improving my skills in:
+
+- OWASP Top 10
+- Web penetration testing
+- API security
+- OAuth security
+- Python scripting
+- Networking fundamentals
 
 ---
 
-## 🏷️ Topics
+## ⚠️ Responsible Disclosure
 
-`CyberSecurity` `BugBounty` `WebSecurity` `PenetrationTesting` `OAuth2` `SecurityResearch`
+All research and testing documented here is performed for educational purposes and on systems where I have proper authorization.
+
+Sensitive information is removed when necessary to respect affected organizations.
+
+Unauthorized access or testing against systems without permission is illegal.
+
+---
+
+## 🔗 Links
+
+GitHub:
+https://github.com/Kirabugroot
+
+Twitter/X:
+https://x.com/Kira_root
+
+YesWeHack:
+https://yeswehack.com/hunters/kira-root
+
+---
+
+⭐ More security research and writeups will be added as I continue my cybersecurity journey.
