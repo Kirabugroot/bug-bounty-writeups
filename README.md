@@ -1,115 +1,158 @@
-# 🛡️ Cybersecurity Research Portfolio
+# 🛡️ Bug Bounty Writeups
 
-Welcome to my cybersecurity research portfolio.
+Welcome to my **bug bounty and cybersecurity research portfolio**.
 
-I'm an **18-year-old bug hunter** passionate about **offensive security**, web application security, and vulnerability research.
+This repository contains my security write-ups, vulnerability analysis, and technical research focused on **web application security**, **authentication mechanisms**, and **offensive security**.
 
-This repository contains my security writeups, technical analysis, and learning notes as I continue developing my skills in cybersecurity and penetration testing.
-
----
-
-## 👨‍💻 About Me
-
-- 🔎 Bug Bounty Hunter
-- 🕵️ Offensive Security Learner
-- 🌐 Web Security Enthusiast
-- 🎯 Aspiring Penetration Tester
-
-My main areas of interest:
-
-- Web Application Security
-- Authentication & Authorization vulnerabilities
-- API Security
-- OAuth 2.0 Security
-- Vulnerability Research
-- Security Testing Methodologies
-
-My goal is to become a professional penetration tester and continuously improve through practical research, labs, and responsible disclosure.
+The purpose of this repository is to document my cybersecurity journey, share technical knowledge, and showcase my approach to vulnerability research through responsible disclosure.
 
 ---
 
-## 📚 Security Research & Writeups
+# 👨‍💻 About This Repository
 
-| Research | Description |
-|-----------|-------------|
-| 🔐 OAuth 2.0 Security Research | Analysis of OAuth implementation weaknesses, PKCE security, and authentication flow issues |
-| 🌐 Web Security Research | Vulnerability analysis, experiments, and technical security notes |
+This repository contains:
 
----
+- Vulnerability write-ups
+- Technical security analysis
+- Research notes
+- Security learning documentation
 
-## 🏆 Bug Bounty Experience
+The main focus areas are:
 
-- Accepted vulnerability report through responsible disclosure
-- Experience analyzing authentication and authorization security issues
-- Security research focused on web applications
-
----
-
-## 🧰 Skills & Tools
-
-### Security
-
-- Web Application Pentesting
-- Vulnerability Research
-- Authentication Testing
-- Authorization Testing
-- Manual Security Testing
-- Security Analysis
-
-### Tools
-
-- Burp Suite
-- Nmap
-- OWASP ZAP
-- Linux
-- Git
-- Python (Security Automation)
-
----
-
-## 📈 Learning Journey
-
-This repository documents my growth in cybersecurity.
-
-Each writeup represents:
-
-- A vulnerability I researched
-- A security concept I studied
-- A technique I practiced
-- A lesson learned
-
-Currently improving my skills in:
-
-- OWASP Top 10
-- Web penetration testing
+- Web application security
+- Authentication and authorization security
 - API security
 - OAuth security
-- Python scripting
-- Networking fundamentals
+- Vulnerability research
 
 ---
 
-## ⚠️ Responsible Disclosure
+# 📚 Published Writeups
 
-All research and testing documented here is performed for educational purposes and on systems where I have proper authorization.
+## 🔐 OAuth 2.0 Misconfiguration — Missing PKCE Enforcement
 
-Sensitive information is removed when necessary to respect affected organizations.
+**Category:** Authentication / OAuth Security  
+**Severity:** Medium  
+**Status:** ✅ Fixed by vendor
 
-Unauthorized access or testing against systems without permission is illegal.
+### Overview
+
+A technical analysis of an OAuth 2.0 security issue involving weaknesses in the authorization flow.
+
+The research focused on:
+
+- Missing PKCE enforcement
+- OAuth client registration weaknesses
+- Redirect URI validation issues
+- Authorization flow security problems
+
+The vulnerability was reported through a responsible disclosure process and the affected organization implemented security improvements.
+
+📄 **Read the full write-up:**
+
+➡️ [OAuth 2.0 Misconfiguration — Missing PKCE Enforcement](oauth-pkce-misconfiguration.md)
 
 ---
 
-## 🔗 Links
+# 🧰 Security Topics
 
-GitHub:
-https://github.com/Kirabugroot
+## 🌐 Web Application Security
 
-Twitter/X:
-https://x.com/Kira_root
+Research areas:
 
-YesWeHack:
-https://yeswehack.com/hunters/kira-root
+- Authentication vulnerabilities
+- Authorization flaws
+- Access control issues
+- API security
+- Security misconfigurations
+- Common web vulnerabilities
 
 ---
 
-⭐ More security research and writeups will be added as I continue my cybersecurity journey.
+## 🔑 Identity & Authentication
+
+Topics studied:
+
+- OAuth 2.0
+- OpenID Connect
+- PKCE
+- Session security
+- Access control mechanisms
+
+---
+
+## ⚔️ Offensive Security
+
+Areas of interest:
+
+- Vulnerability discovery
+- Security testing methodologies
+- Manual testing techniques
+- Bug bounty methodology
+- Responsible disclosure
+
+---
+
+# 🧠 Research Methodology
+
+My security research process:
+
+1. Understanding application behavior
+2. Identifying potential security weaknesses
+3. Testing vulnerabilities in authorized environments
+4. Analyzing security impact
+5. Documenting findings
+6. Reporting responsibly
+
+---
+
+# ⚠️ Responsible Disclosure
+
+All vulnerabilities documented in this repository follow responsible disclosure principles.
+
+To respect affected organizations:
+
+- Sensitive information has been removed.
+- Private targets and confidential details are not disclosed.
+- Technical details are shared for educational purposes.
+
+All testing is performed only on systems where proper authorization is provided.
+
+---
+
+# 📂 Repository Structure
+
+```text
+bug-bounty-writeups/
+
+├── README.md
+│
+└── oauth-pkce-misconfiguration.md
+```
+
+
+---
+
+# 🎯 Future Research
+
+More write-ups and security research will be added as I continue improving my skills in:
+
+- Web penetration testing
+- Vulnerability research
+- API security
+- Authentication security
+- Offensive security
+
+---
+
+# ⭐ About Me
+
+I am an 18-year-old bug hunter interested in cybersecurity, offensive security, and penetration testing.
+
+My goal is to continue learning, improve my technical skills, and become a professional penetration tester.
+
+---
+
+# ⭐ Support
+
+If you find these write-ups useful, feel free to follow my work and support my cybersecurity journey.
